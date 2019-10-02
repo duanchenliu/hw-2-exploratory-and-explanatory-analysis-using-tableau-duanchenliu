@@ -95,24 +95,77 @@
         
         </div>
         <br>
+        <hr>
         <h2>Reflections:</h2>
         <p class="w3-hide-small">
                 <span class="w3-tag w3-light-grey">Processes:</span>
-                (data selection, exploration, explanation stages)
-                1 paragraph each, 1 picture each
+                <p class="w3-hide-small"> 
+                        Data selection: I chose the Airbnb dataset because I am also in the Airbnb community as a host. I want to understand how the price varies with the number of beds, what types are listings/room types are more popular, what is the relationship between price and review, and how much has Airbnb grown over the past few years. I did some basic data cleansing by deleting the data that has fields that are empty.  
+                </p>
+                <img src="/img/data.png">
+                <p class="w3-hide-small">
+                                <br>
+                                <br>
+                        Exploration: I explored the data in 4 topics listing above: number of beds, types of listings and rooms, price vs. Review, listing number growth across the years. I first created 14 worksheets with bar graphs, line graphs, maps, and so on. Below I want to highlight two examples on how I chose a graph to answer a certain question:
+                        <br>
+                        <br>
+                        How many listings for each room type are there in each neighbourhood?
+                        To answer this question, we have three factors: neighbourhood, room type, number of listings. Because I want to compare the different neighbourhoods, I decided to group the neighbourhoods together for each room type. Then I counted the number of listings for each neighbourhood for each room type. I tried the line graph, point graph, and packed bubbles, but decided on bar graph because it allows readers to see the comparisons between the number of listings of each room type in neighbourhoods easily, using the height of the graph. Also, it allows me to group the neighbourhoods together, using color to encode.        
+                </p>
+                <img src="/img/How many listings for each room type are there in each neighborhood_.png">
+                
+                <p class="w3-hide-small">
+                        <br>
+                        <br>
+                        Which area is the best? 
+                        For this question, the difficulty is that there are so many zip codes/areas in New York. So if I use visualizations like bar graph, line graph, or circle view, the graph will be very long or clustered. Also, since zipcode automatically encodes location (longitude and latitude) I believe using a map would be most suitable. Thus, in the map, I used color to encode the average review scores, the darker the color and better the review average. In this way, we can clearly show that Brooklyn has the highest average, followed by Manhattan. 
+                         
+                </p>
+                <img src="/img/Which area is the best_.png">
+                
+                <p class="w3-hide-small">
+                        <br>
+                        <br>
+                                Explanation: 
+                                I created 4 dashboards and 1 story point to answer the questions for the 4 topics. 
+                                <br>
+                                <br>
+                                For the first topic about the number of beds, I created a dashboard with a bar chart and map to show the average number of beds in each area. The bar chart is good for comparing the averages and the map shows another angle to the question by highlighting which zipcode has the highest average number of beds. With the map we can see a general pattern: the further the listing is from the city, the more beds it may have. 
+                                
+                </p>
+                <img src="img/Number of beds.png">
+                <p class="w3-hide-small">
+                        <br>
+                        <br>        
+                        For the second topic about the types of listings and rooms, I created 2 dashboards, one for listings and one for rooms. I highlighted part of the data to emphasize the message. 
+                </p>
+                <img src="img/Listing types.png">
+                <img src="img/Room types.png">
+                <p class="w3-hide-small">
+                        <br>
+                        <br>
+                                For the third topic, price vs. review, I created a story to guide the readers through the answers to multiple questions. The main question I wanted to answer is that “what is the relation between price and rating.” To solve that question, we need to explore other two questions, one is “for each neighborhood, what is the relationship between price and review”, another is “for each zipcode, what is the relationship between price and review.” The answers are pretty consistent across all three questions: there is a positive relationship between price and review but the relationship is very weak. 
+                </p>
+                <img src="img/Price vs. Rating Story.png">
+                <p class="w3-hide-small">
+                        <br>
+                        <br>        
+                        For the last topic about the growth of listings on Airbnb throughout the years. I created a dashboard with line graphs to show the general trend and the trend for each neighbourhood to see how much did each neighbourhood contribute to the growth or decline of the number of new listings. 
+                </p>
+                <img src="img/Newly added listing number each year.png">
         </p>
         <p class="w3-hide-small">
                 <span class="w3-tag w3-light-grey">Findings:</span>
-                I gained several interesting insights into the Airbnb New York rental market. Below is the summary of the answers to the questions that we wished to answer at the beginning of the project:
-                summary of the previous graphs
+                I gained several interesting insights into the Airbnb New York rental market. The answers to the questions in the 4 topics are listed in the descriptions of the dashboards and story point above. 
         </p>
         <p class="w3-hide-small">
                 <span class="w3-tag w3-light-grey">Lessions learned:</span>
                 
-                should not blindly believe data -> last 
+                One thing I want to highlight is that from the last Dashboard (screenshot attached below) I learned that data can be deceitful. From the dashboard, we may conclude that the growth of listings increased from 2008 to 2014 but declined in 2015. But the reality was that in 2015, Airbnb purposefully removed some part of its data to achieve a higher percentage of listings that follows NY regulation. So the truth may be that the growth of listings in 2015 increased compared to 2014, but most of the increase hostings don’t follow NY’s regulation. This showed that when analyzing data, we need to be skeptical about where we got the data, whether the data were manipulated, and whether the data show the full picture. 
         </p>
+        <hr>
 
-        [Discuss your findings/lessons/processes here]
+        
     </div>
 
 </body>
