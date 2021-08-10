@@ -1,7 +1,7 @@
 # Exploratory and Explanatory Analysis using Tableau
 
 
-## Rubric
+## Score: 12
 
 | Label  | Point | Description |
 | --- | --- | --- |
