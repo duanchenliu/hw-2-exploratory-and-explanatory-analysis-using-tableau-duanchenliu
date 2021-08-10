@@ -1,4 +1,4 @@
-# HW2 - Exploratory and Explanatory Analysis using Tableau
+# Exploratory and Explanatory Analysis using Tableau
 
 
 ## Rubric
